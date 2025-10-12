@@ -1,0 +1,89 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+@import url("href=https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap"); 
+
+body {
+	font-family: "BenguiatGothicC", serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+.title {
+	font-family: "BenguiatGothicC", sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+	color: #3c1164;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.header-title {
+	font-family: 'BikhamCyrScript', fantasy ;
+	font-size: 70px;
+	color: #483f59;
+	text-shadow: 5px 5px 4px #5b3d76;
+	text-align: center;
+}
+
+.header-text {
+	font-style: oblique;
+	letter-spacing: 1.5px;
+	text-align: center;
+}
+
+.menu-title {
+	font-family: 'Lora', serif ;
+	font-weight: 600;
+	font-size: 24px;
+	color: #3c1164;
+}
+
+.menu-list {
+	font-family: "Cormorant Garamond", serif;
+	font-weight: 700;
+	line-height: 1.5;
+	white-space: nowrap;
+	color: #3c1164;
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-underline-offset: 4px;
+}
+
+.legends-item {
+	font-family: 'Lora', serif ;
+	font-weight: 400;
+	color: #3c1164;
+}
+
+.legends-sublist {
+	font-family: 'Lora', serif ;
+	font-weight: 400;
+	color: #c15c0e;
+}
+
+.collection-item {
+	font-family: 'Lora', serif ;
+	font-weight: 600;
+	color: #3c1164;
+}
+
+.sublist-item {
+	font-family: 'Lora', serif ;
+	font-weight: 400;
+	color: #c15c0e;
+}
+
+.contact-subtitle {
+	font-family: 'BikhamCyrScript', fantasy ;
+	font-size: 36px;
+	color: #483f59;
+	text-decoration-line: overline;
+}
+
+.footer-link {
+	text-decoration: underline;
+}
+
