@@ -1,0 +1,305 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+body {
+	font-family: "Lato", sans-serif;
+	color: #2f302c;
+	margin: 0 auto;
+	line-height: 1.3;
+}
+
+.header {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+}
+
+/* --------------------------------------------- */
+
+.experiment {
+	background-image: linear-gradient(135deg, #200342, #7017a3, #e1bee7);
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	line-height: 1.3;
+}
+
+.container {
+	max-width: 1080px;
+	padding-inline: 10px;
+	margin: 0 auto;
+}
+
+[class*="-block"] {
+	margin-bottom: 20px;
+	padding-left: 10px;
+}
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+}
+
+.border-block p {
+	border: 2px dotted #46c8e9;
+}
+
+.span-border {
+	border: 2px solid #46c8e9;
+}
+
+.span-outline {
+	outline: 2px dashed #cdec5c;
+}
+
+.circle {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background-color: #eaee18;
+	margin-bottom: 10px;
+}
+
+.asymmetric-radius {
+	vertical-align: middle;
+	border-radius: 40% 20% 80% 14% / 15% 17% 25% 50%;
+	width: 80px;
+	height: 100px;
+	background-color: #eaee18;
+	margin-bottom: 10px;
+}
+
+.rounded-square {
+	border-radius: 15%;
+	width: 100px;
+	height: 100px;
+	background-color: #eaee18;
+	margin-bottom: 10px;
+}
+
+.border-radius-block span {
+	display: inline-block;
+	padding-left: 150px;
+}
+
+.shadow-block {
+	background-color: #554da1;
+	box-shadow:
+		inset 0px 0px 10px 3px #c3c5e9cc,
+		5px 5px 5px 5px #25189b,
+		5px 5px 5px 10px #080142;
+	padding: 10px;
+}
+
+.opacity-block p {
+	opacity: 0.4;
+}
+
+.hidden-block p {
+	visibility: hidden;
+}
+
+.background-block {
+	height: 300px;
+}
+
+.block-norepeat {
+	background: #554da1 url("../img/river.jpg") 0 0 / cover no-repeat fixed;
+	height: 100dvh;
+}
+
+.block-repeat {
+	background-image: url("../img/smile.webp");
+	background-repeat: repeat-x;
+	background-size: contain;
+
+	color: #080142;
+}
+
+.block-repeat h2 {
+	margin-bottom: 20px;
+}
+
+.repeat-vert {
+	background-image: url("../img/smile.webp");
+	background-repeat: repeat-y;
+	background-size: 5%;
+	height: 300px;
+}
+
+/* --------------------------------------------- */
+
+.hero {
+	width: 100%;
+	background-image: url("../img/hero.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 30px;
+}
+
+.hero__content {
+	/*margin-left: 52.760417%;*/
+	color: #2f302c;
+	max-width: 600px;
+	margin-left: auto;
+	padding: 114px 0px 110px;
+}
+
+.hero__subtitle {
+	color: #2f302c;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.4;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.hero__title {
+	font-size: 96px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 800;
+	line-height: 1.05;
+	text-transform: uppercase;
+	margin-bottom: 16px;
+}
+
+.hero__line {
+	background-color: #000;
+	max-width: 308px;
+	height: 1px;
+	margin-bottom: 36px;
+}
+
+.hero p {
+	color: #7e7f7c;
+	max-width: 374px;
+	font-weight: 500;
+	line-height: 1.25;
+}
+
+.card {
+	display: inline-block;
+	width: 100%;
+	padding: 40px;
+	max-width: 351px;
+	box-shadow: 0 13px 19px 0 rgba(0, 0, 0, .07);
+	box-sizing: border-box;
+	border-radius: 8px;
+	margin-right: 8px;
+}
+
+.card-body {
+	text-align: left;
+
+}
+
+.card-title {
+	color: #252b42;
+	font-size: 16px;
+	margin-top: 0;
+	text-align: left;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.1px;
+	margin-bottom: 16px;
+
+}
+
+.card-price {
+	font-family: "Montserrat", sans-serif;
+	letter-spacing: 0.2px;
+	margin-bottom: 17px;
+}
+
+.price {
+	display: inline-block;
+	color: #252b42;
+	font-size: 40px;
+	text-align: left;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+	line-height: 57px;
+	margin-right: 16px;
+}
+
+.pay {
+	display: inline-block;
+
+}
+
+.period {
+	color: #252b42;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: .10000000149011612px;
+
+}
+
+.sale {
+	color: #737373;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+
+}
+
+.card-line {
+	background: rgba(49, 160, 254, 1);
+	max-width: 47px;
+	min-height: 4px;
+	margin-bottom: 17px;
+}
+
+.card-text {
+	color: #737373;
+	font-size: 12px;
+	text-align: left;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: .20000000298023224px;
+	margin-bottom: 17px;
+}
+
+.check-item {
+	background-image: url(../img/check.png);
+	background-repeat: no-repeat;
+	min-height: 32px;
+	padding-left: 45px;
+	padding-top: 4px;
+	color: #252b42;
+	font-size: 14px;
+	text-align: left;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: .20000000298023224px;
+	margin-bottom: 15px;
+
+}
+
+.check-item-nocheck {
+	background-image: url(../img/no-check.png);
+}
+
+.button a {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 2;
+	text-align: center;
+	padding: 6px 88.5px;
+	border: 1px solid #252b42;
+	border-radius: 24px;
+
+}
+
+
+
+.footer {
+	background-color: #aaaaaa;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
